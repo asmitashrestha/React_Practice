@@ -1,3 +1,5 @@
+import Button from "./Button"
+
 let Bodyimg = ({title,desc,image})=>{
   
     return(
@@ -5,8 +7,7 @@ let Bodyimg = ({title,desc,image})=>{
             <img src={image} alt="" />
             <h2>{title}</h2>
             <p>{desc}</p>
-            <button style={{backgroundColor:"blue", color:"white",marginRight:"5px", padding:"10px"}}>edit</button>
-            <button style={{backgroundColor:"red", color:"white", padding:"10px"}}>delete</button>
+            <Button/>
           </div>
     )
    }
