@@ -1832,9 +1832,9 @@ const User = () => {
 ]
   return (
     <div>
-         <h1>users list</h1>
+         <h1  style={{textAlign:"center", justifyContent:"center"}}>users list</h1>
         <hr />
-        <ul>
+        <ul className="list">
             {
                 users.map(user => {
                     return <li key={user.id}>{user.firstName}</li>

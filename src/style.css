@@ -90,3 +90,11 @@ li a{
 .btn button:hover{
     background-color: rgb(140, 212, 212);
 }
+
+.list{
+    list-style: none;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,5 +1,4 @@
 import Button from "./Button"
-
 let Bodyimg = ({title,desc,image})=>{
   
     return(
